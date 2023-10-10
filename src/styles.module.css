@@ -1,9 +1,61 @@
 /* add css module styles here (optional) */
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+button.btn{
+  appearance: none;
+  -webkit-appearance: none;
+  font-family: sans-serif;
+  cursor: pointer;
+  padding: 11px;
+  min-width: 125px;
+  margin: 5px;
+
+
+
+  -webkit-transition: background-color 100ms linear;
+  -ms-transition: background-color 100ms linear;
+  transition: background-color 100ms linear;
+  border-radius: 15px;
+}
+button.primary {
+  border: 0px;
+  background: #3498db;
+  color: #ffffff;
+
+}
+button.secondary {
+  border: 2px solid rgb(135, 135, 135);
+  background-color: gray;
+}
+button.success {
+  border: 2px dotted rgb(59, 246, 90);
+  background-color: greenyellow;
+}
+button.danger {
+  border: 2px rgb(255, 2, 2);
+  background-color: red;
+}
+button.warning {
+  border: 2px rgb(255, 234, 2);
+  background-color: yellow;
+}
+button.info {
+  border: 2px rgb(123, 122, 122);
+  background-color:aquamarine ;
+}
+button.dark {
+  border: 2px rgb(6, 6, 6);
+  background-color: black;
+  color: #ffffff;
+}
+button.text {
+  border: 2px rgb(254, 253, 253);
+  background-color: aqua;
+}
+button.link {
+  border: 0px rgb(157, 157, 163);
+  background-color: darkgray;
+  color: blue;
+}
+button:hover {
+  opacity: 0.9;
 }
